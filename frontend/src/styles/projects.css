@@ -1,0 +1,74 @@
+.container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.card {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.milestone-card {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.milestone-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Pending */
+.badge.pending {
+  background: #6b7280;
+}
+
+/* Submitted */
+.badge.submitted {
+  background: #3b82f6;
+}
+
+/* Approved */
+.badge.approved {
+  background: #f59e0b;
+}
+
+/* Paid */
+.badge.paid {
+  background: #16a34a;
+}
